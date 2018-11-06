@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:id="@+id/registerLayout"
+    android:orientation="vertical"
+    tools:context=".Registration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:contentDescription="logo"
+            android:padding="16dp"
+            app:srcCompat="@drawable/kms" />
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@android:color/transparent"
+            android:inputType="text"
+            android:hint="Full Name"
+            android:maxLength="50"
+            android:imeOptions="actionDone"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:ems="10"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@android:color/transparent"
+            android:inputType="textEmailAddress"
+            android:maxLength="40"
+            android:imeOptions="actionDone"
+            android:hint="Email"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:ems="10"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"/>
+
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="8dp"
+            android:hint="Phone"
+            android:background="@android:color/transparent"
+            android:imeOptions="actionDone"
+            android:inputType="phone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@android:color/transparent"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:maxLength="15"
+            android:drawablePadding="12dp"
+            android:imeOptions="actionDone"
+            android:padding="8dp"
+            android:maxLines="1"
+            android:ems="10"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <EditText
+            android:id="@+id/confirmpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@android:color/transparent"
+            android:inputType="textPassword"
+            android:maxLength="15"
+            android:hint="Confirm Password"
+            android:imeOptions="actionDone"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:maxLines="1"
+            android:ems="10"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"/>
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/forget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="¿Ya tienes una cuenta? Sign In"
+            android:padding="16dp"
+            android:clickable="true"
+            android:onClick="backToLogin"/>
+
+    </LinearLayout>
+
+</LinearLayout>

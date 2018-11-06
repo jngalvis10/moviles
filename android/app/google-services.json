@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "676122920729",
+    "firebase_url": "https://keepmesafe-ada89.firebaseio.com",
+    "project_id": "keepmesafe-ada89",
+    "storage_bucket": "keepmesafe-ada89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676122920729:android:a3a2ca5742b663f9",
+        "android_client_info": {
+          "package_name": "com.leptons.keepmesafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676122920729-k7j1hn9m8faij3tp2rr1ho6tf2kg34j6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leptons.keepmesafe",
+            "certificate_hash": "de1dc1fda3c16c0c1c47b7c603e1a510278719fb"
+          }
+        },
+        {
+          "client_id": "676122920729-q3mv88hdj78a3nflabb5cor7o44ib5ri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_alUOacK60JVPmw8y1riGLcCNz0eQe74"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676122920729-q3mv88hdj78a3nflabb5cor7o44ib5ri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

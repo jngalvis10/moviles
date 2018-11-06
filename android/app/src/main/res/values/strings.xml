@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KeepMeSafe</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="title_activity_buscar_destino">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tracking_map">Map</string>
+</resources>
